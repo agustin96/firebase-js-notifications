@@ -1,0 +1,25 @@
+[debug] [2019-11-26T03:52:38.601Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T03:52:38.604Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Agustin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve -p 8081
+[debug] [2019-11-26T03:52:38.605Z] CLI Version:   7.8.1
+[debug] [2019-11-26T03:52:38.605Z] Platform:      win32
+[debug] [2019-11-26T03:52:38.605Z] Node Version:  v10.16.0
+[debug] [2019-11-26T03:52:38.607Z] Time:          Tue Nov 26 2019 00:52:38 GMT-0300 (GMT-03:00)
+[debug] [2019-11-26T03:52:38.607Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T03:52:38.607Z] 
+[debug] [2019-11-26T03:52:38.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-26T03:52:38.627Z] > authorizing via signed-in user
+[debug] [2019-11-26T03:52:38.627Z] [iam] checking project visualbar-c0b8b for permissions ["firebase.projects.get"]
+[debug] [2019-11-26T03:52:38.630Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/visualbar-c0b8b:testIamPermissions  
+
+[debug] [2019-11-26T03:52:39.872Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-26T03:52:39.875Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/visualbar-c0b8b  
+ 
+[debug] [2019-11-26T03:52:41.238Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\laragon\www\quickstart-js\messaging'...
+[info] 
+[debug] [2019-11-26T03:52:41.242Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/visualbar-c0b8b/webApps/-/config  
+ 
+[debug] [2019-11-26T03:52:43.126Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:8081
